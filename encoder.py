@@ -1,13 +1,17 @@
 def encode(phrase):
-    pass
     phrase = str(phrase)
     new_phrase = ""
     for i in phrase:
         new_phrase += str(int(i) + 3)
+    return new_phrase
 
 
 def decode(phrase):
-    pass
+    phrase = str(phrase)
+    new_phrase = ""
+    for i in phrase:
+        new_phrase += str(int(i) - 3)
+    return new_phrase
 
 
 def main():
