@@ -5,6 +5,7 @@ def encode(phrase):
     for i in phrase:
         new_phrase += str(int(i) + 3)
 
+
 def decode(phrase):
     pass
 
